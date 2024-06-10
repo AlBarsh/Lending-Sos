@@ -11,6 +11,9 @@ module.exports = {
   theme: {
     backgroundImage: {
       slide1: "url('resurses/Slide1.jpg')",
+      slide2: "url('resurses/Slide2.jpg')",
+      slide3: "url('resurses/Slide3.jpg')",
+      slide4: "url('resurses/Slide4.jpg')",
       bgimg1: "url('resurses/bgimg1.jpg')",
     },
     screens: {
