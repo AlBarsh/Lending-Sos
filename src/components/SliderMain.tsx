@@ -66,7 +66,7 @@ export const CustomDots = () => {
 const SliderMain = () => {
   return (
     <Carousel
-      className="  desk:hidden"
+      className=" min-w-[900px] desk:hidden"
       autoplay
       dots={<CustomDots />}
       showDots

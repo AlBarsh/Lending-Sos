@@ -1,9 +1,9 @@
 import menuIconClosed from "../resurses/menuIconClosed.svg";
 import menuIconOpen from "../resurses/menuIconOpen.svg";
-type BurgerProps = {
+export interface BurgerProps {
   open: boolean;
   onBurger: () => void;
-};
+}
 const Burger = (props: BurgerProps) => {
   const burgerRender = props.open ? (
     <button

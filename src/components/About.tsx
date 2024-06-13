@@ -2,7 +2,7 @@ import SliderAbout from "./SliderAbout";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about ">
       <div className="flex flex-col desk:flex-row bg-bgimg1 bg-cover px-[15px] pt-[20px] desk:pt-[200px]">
         <div className="flex flex-col desk:mr-[18px]">
           <div className=" border-b border-white desk:pt-[55px]">
@@ -14,7 +14,7 @@ const About = () => {
               social battle royale game
             </h1>
           </div>
-          <div className="min-w-[365px] text-white text-[14px] desk:text-[18px] mt-[26px] desk:mt-[60px] mb-[50px] desk:self-end ">
+          <div className=" text-white text-[14px] desk:text-[18px] mt-[26px] desk:mt-[60px] mb-[50px] desk:self-end ">
             <p className="mb-[15px]">
               Each round, you and 15 other contestants compete to escape a
               deadly island filled with monsters. The trick is: three people can

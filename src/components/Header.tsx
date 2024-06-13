@@ -3,26 +3,22 @@ import SelectLang from "./SelectLang";
 import Burger from "./Burger";
 import xbox from "../resurses/xbox.svg";
 import steam from "../resurses/steam.svg";
+import { BurgerProps } from "./Burger";
 import { useState } from "react";
-const Header = () => {
-  const [burgerOpen, setBurgerOpen] = useState(false);
-
-  const onBurger = () => {
-    setBurgerOpen(!burgerOpen);
-  };
-  const navActiv = burgerOpen
-    ? " fixed  left-0 top-[-100vh] flex flex-col w-[100%] h-[100vh] bg-black opacity-75 transition duration-300 ease-in-out  translate-y-[106vh] desk:h-fit"
+const Header = (props: BurgerProps) => {
+  const navActiv = props.open
+    ? " fixed px-[30px] pt-[100px]  left-0 top-[-100vh] flex flex-col w-[100%] h-full bg-black opacity-80 transition duration-300 ease-in-out  translate-y-[106vh] desk:h-fit"
     : " fixed  left-0 top-[-100vh] flex flex-col w-[100%] h-[100vh] bg-black opacity-75 transition duration-300 ease-in-out desk:static desk:bg-transparent desk:h-fit";
-  const headerActive = burgerOpen
+  const headerActive = props.open
     ? " px-[15px]    w-full  left-0 h-[52px] mb-[180px]  pt-[10px] flex justify-between bg-black desk:bg-transparent "
-    : " px-[15px]    w-full left-0 h-[52px] mb-[180px]   pt-[10px] flex justify-between";
+    : " px-[15px]     w-full left-0 h-[52px] mb-[180px]   pt-[10px] flex justify-between";
 
   return (
     <div className={headerActive}>
       <img src={logo} alt="" />
       <div className="flex desk:items-center">
         <nav className={navActiv}>
-          <ul className="h-full desk:flex desk:gap-[35px] font-bold desk:h-fit desk:w-fit">
+          <ul className="h-full w-[280px] text-[25px] flex flex-col gap-[35px] desk:flex-row font-bold desk:h-fit desk:w-fit desk:text-[12px]">
             <li className="text-white">
               <a href="">MAIN</a>
             </li>
@@ -38,6 +34,14 @@ const Header = () => {
             <li className="text-white">
               <a href="">QOUTES</a>
             </li>
+            <li className="flex gap-[20px] desk:hidden">
+              <a href="">
+                <img className="h-[30px] w-[30px]" src={xbox} alt="" />
+              </a>
+              <a href="">
+                <img src={steam} alt="" />
+              </a>
+            </li>
           </ul>
         </nav>
         <div className="flex">
@@ -50,7 +54,7 @@ const Header = () => {
               <img className="h-fit w-fit" src={steam} alt="" />
             </button>
           </div>
-          <Burger open={burgerOpen} onBurger={onBurger} />
+          <Burger open={props.open} onBurger={props.onBurger} />
         </div>
       </div>
     </div>
