@@ -14,7 +14,7 @@ const About = () => {
               social battle royale game
             </h1>
           </div>
-          <div className="w-[365px] text-white text-[14px] desk:text-[18px] mt-[26px] desk:mt-[60px] mb-[50px] desk:self-end ">
+          <div className="min-w-[365px] text-white text-[14px] desk:text-[18px] mt-[26px] desk:mt-[60px] mb-[50px] desk:self-end ">
             <p className="mb-[15px]">
               Each round, you and 15 other contestants compete to escape a
               deadly island filled with monsters. The trick is: three people can

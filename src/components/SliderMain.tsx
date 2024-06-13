@@ -66,17 +66,17 @@ export const CustomDots = () => {
 const SliderMain = () => {
   return (
     <Carousel
-      className="w-[900px] h-[650] top-0 m-0 desk:hidden"
+      className="  desk:hidden"
       autoplay
       dots={<CustomDots />}
       showDots
       showArrows
       arrows={<CustomArrows />}
     >
-      <img className="w-[900px] h-[650] block" src={SLide1} alt="" />
-      <img className="w-[900px] h-[650] block" src={Slide2} alt="" />
-      <img className="w-[900px] h-[650] block" src={SLide3} alt="" />
-      <img className="w-[900px] h-[650] block" src={SLide4} alt="" />
+      <img className=" " src={SLide1} alt="" />
+      <img className="" src={Slide2} alt="" />
+      <img className="" src={SLide3} alt="" />
+      <img className="" src={SLide4} alt="" />
     </Carousel>
   );
 };

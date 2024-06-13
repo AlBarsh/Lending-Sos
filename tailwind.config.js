@@ -17,7 +17,7 @@ module.exports = {
       bgimg1: "url('resurses/bgimg1.jpg')",
     },
     screens: {
-      desk: "450px",
+      desk: "1024px",
     },
     container: {
       center: true,
