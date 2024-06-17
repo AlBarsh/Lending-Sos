@@ -20,19 +20,19 @@ const Header = (props: BurgerProps) => {
         <nav className={navActiv}>
           <ul className="h-full w-[280px] text-[25px] flex flex-col gap-[35px] desk:flex-row font-bold desk:h-fit desk:w-fit desk:text-[12px]">
             <li className="text-white">
-              <a href="">MAIN</a>
+              <a href="#mainScreen">MAIN</a>
             </li>
             <li className="text-white">
-              <a href="">ABOUT</a>
+              <a href="#about">ABOUT</a>
             </li>
             <li className="text-white">
-              <a href="">GAME FEATURES</a>
+              <a href="#features">GAME FEATURES</a>
             </li>
             <li className="text-white">
-              <a href="">SYSTEM REQUIREMENTS</a>
+              <a href="#system">SYSTEM REQUIREMENTS</a>
             </li>
             <li className="text-white">
-              <a href="">QOUTES</a>
+              <a href="#quotes">QOUTES</a>
             </li>
             <li className="flex gap-[20px] desk:hidden">
               <a href="">

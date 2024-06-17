@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import SliderMain from "./components/SliderMain";
 import Header from "./components/Header";
-import Main from "./components/Main";
+import MainScreen from "./components/MainScreen";
 import About from "./components/About";
 import Features from "./components/Features";
 import Requirements from "./components/Requirements";
@@ -27,7 +27,7 @@ function App() {
           <SliderMain />
         </div>
         <Header open={burgerOpen} onBurger={onBurger} />
-        <Main />
+        <MainScreen />
       </div>
       <About />
       <Features />

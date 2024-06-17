@@ -12,19 +12,19 @@ const Footer = () => {
         <nav className="desk:h-fit">
           <ul className="text-white text-[12px] font-bold flex flex-wrap desk:flex-nowrap	 gap-x-[30px] desk:gap-x-[22px]  gap-y-[20px] desk:gap-y-0 desk:h-fit justify-center">
             <li className="">
-              <a href="">MAIN</a>
+              <a href="#mainScreen">MAIN</a>
             </li>
             <li className="">
-              <a href="">ABOUT</a>
+              <a href="#about">ABOUT</a>
             </li>
             <li className="">
-              <a href="">GAME FEATURES</a>
+              <a href="#features">GAME FEATURES</a>
             </li>
             <li className="">
-              <a href="">SYSTEM REQUIREMENTS</a>
+              <a href="#system">SYSTEM REQUIREMENTS</a>
             </li>
             <li className="">
-              <a href="">QOUTES</a>
+              <a href="#quotes">QOUTES</a>
             </li>
           </ul>
         </nav>

@@ -34,7 +34,10 @@ const Quotes = () => {
     );
   });
   return (
-    <section className="px-[15px] bg-bgimg1 bg-cover pt-[36px] pb-[47px] desk:flex desk:px-[120px] desk:justify-between desk:gap-[100px] desk:pt-[160px] desk:pb-[150px]">
+    <section
+      id="quotes"
+      className="px-[15px] bg-bgimg1 bg-cover pt-[36px] pb-[47px] desk:flex desk:px-[120px] desk:justify-between desk:gap-[100px] desk:pt-[160px] desk:pb-[150px]"
+    >
       <div className="flex flex-col desk:max-w-[440px]">
         <div className="text-white">
           <h3 className="text-[18px]  desk:text-[24px] uppercase">

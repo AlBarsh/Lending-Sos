@@ -2,7 +2,7 @@ import SliderAbout from "./SliderAbout";
 
 const About = () => {
   return (
-    <section id="about ">
+    <section id="about">
       <div className="flex flex-col desk:flex-row bg-bgimg1 bg-cover px-[15px] pt-[20px] desk:pt-[200px]">
         <div className="flex flex-col desk:mr-[18px]">
           <div className=" border-b border-white desk:pt-[55px]">

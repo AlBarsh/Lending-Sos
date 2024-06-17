@@ -1,6 +1,9 @@
 const Requirements = () => {
   return (
-    <section className=" bg-slide4 bg-cover  bg-center px-[15px] pt-[65px] pb-[235px] desk:pb-[170px] desk:px-[120px]">
+    <section
+      id="system"
+      className=" bg-slide4 bg-cover  bg-center px-[15px] pt-[65px] pb-[235px] desk:pb-[170px] desk:px-[120px]"
+    >
       <div className=" text-white uppercase text-center mb-[72px] desk:mb-[133px]">
         <h3 className=" text-[18px] desk:-[24px]">
           Can My Computer Run this game?

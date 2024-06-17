@@ -3,7 +3,10 @@ import { CustomDots } from "./SliderMain";
 const Main = () => {
   return (
     <>
-      <main className=" px-[15px]    flex flex-col items-center text-center  h-fit">
+      <main
+        id="mainScreen"
+        className=" px-[15px]    flex flex-col items-center text-center  h-fit"
+      >
         <h1 className="font-bebas text-white text-[33px]  tracking-[3px] ">
           SURVIVE AT ALL COSTS
         </h1>
