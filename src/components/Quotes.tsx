@@ -53,7 +53,7 @@ const Quotes = () => {
             our users has to say.
           </p>
         </div>
-        <button className="bg-orange rounded-[3px] desk:text-[16px] font-bold size-fit px-[15px] py-[10px] mb-[30px] mx-auto">
+        <button className="bg-orange rounded-[3px] desk:text-[16px] font-bold size-fit px-[15px] py-[10px] mb-[30px] mx-auto  hover:bg-white focus:bg-white transition-colors">
           Read more testemonials
         </button>
       </div>

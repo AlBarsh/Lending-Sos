@@ -13,7 +13,7 @@ const Main = () => {
         <h3 className="font-bebas text-white text-[18px] tracking-[2px] uppercase mb-[12px] ">
           Experience new social battle royale game
         </h3>
-        <button className="flex bg-orange  mb-[160px] py-[12px] px-[7px] rounded-[3px]">
+        <button className="flex bg-orange hover:bg-white focus:bg-white transition-colors	mb-[160px] py-[12px] px-[7px] rounded-[3px]">
           <span className="block">Buy Now on Steam</span>
           <span className="block">$14.99</span>
         </button>

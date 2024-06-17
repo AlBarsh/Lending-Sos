@@ -20,25 +20,56 @@ const Header = (props: BurgerProps) => {
         <nav className={navActiv}>
           <ul className="h-full w-[280px] text-[25px] flex flex-col gap-[35px] desk:flex-row font-bold desk:h-fit desk:w-fit desk:text-[12px]">
             <li className="text-white">
-              <a href="#mainScreen">MAIN</a>
+              <a
+                className=" hover:text-orange focus:text-orange transition-colors "
+                href="#mainScreen"
+              >
+                MAIN
+              </a>
             </li>
             <li className="text-white">
-              <a href="#about">ABOUT</a>
+              <a
+                className=" hover:text-orange focus:text-orange transition-colors "
+                href="#about"
+              >
+                ABOUT
+              </a>
             </li>
             <li className="text-white">
-              <a href="#features">GAME FEATURES</a>
+              <a
+                className=" hover:text-orange focus:text-orange transition-colors "
+                href="#features"
+              >
+                GAME FEATURES
+              </a>
             </li>
             <li className="text-white">
-              <a href="#system">SYSTEM REQUIREMENTS</a>
+              <a
+                className=" hover:text-orange focus:text-orange transition-colors "
+                href="#system"
+              >
+                SYSTEM REQUIREMENTS
+              </a>
             </li>
             <li className="text-white">
-              <a href="#quotes">QOUTES</a>
+              <a
+                className=" hover:text-orange focus:text-orange transition-colors "
+                href="#quotes"
+              >
+                QOUTES
+              </a>
             </li>
             <li className="flex gap-[20px] desk:hidden">
-              <a href="">
+              <a
+                className=" hover:text-orange focus:text-orange transition-colors "
+                href=""
+              >
                 <img className="h-[30px] w-[30px]" src={xbox} alt="" />
               </a>
-              <a href="">
+              <a
+                className=" hover:text-orange focus:text-orange transition-colors "
+                href=""
+              >
                 <img src={steam} alt="" />
               </a>
             </li>

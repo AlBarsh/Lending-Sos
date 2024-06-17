@@ -13,7 +13,7 @@ import {
 const SelectLang = () => {
   return (
     <Select>
-      <SelectTrigger className="w-fit mr-[15px] bg-transparent text-white border-0">
+      <SelectTrigger className="w-fit mr-[15px]   hover:text-orange active:text-orange transition-colors bg-transparent text-white border-0">
         <SelectValue placeholder="EU" />
       </SelectTrigger>
       <SelectContent className="bg-transparent text-white  border-0">
