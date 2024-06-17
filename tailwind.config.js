@@ -15,6 +15,8 @@ module.exports = {
       slide3: "url('resurses/Slide3.jpg')",
       slide4: "url('resurses/Slide4.jpg')",
       bgimg1: "url('resurses/bgimg1.jpg')",
+      bgScull: "url('resurses/scull.jpg')",
+      bgShad: "url('resurses/shad.jpg')",
     },
     screens: {
       desk: "1024px",

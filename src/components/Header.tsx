@@ -10,8 +10,8 @@ const Header = (props: BurgerProps) => {
     ? " fixed px-[30px] pt-[100px]  left-0 top-[-100vh] flex flex-col w-[100%] h-full bg-black opacity-80 transition duration-300 ease-in-out  translate-y-[106vh] desk:h-fit"
     : " fixed  left-0 top-[-100vh] flex flex-col w-[100%] h-[100vh] bg-black opacity-75 transition duration-300 ease-in-out desk:static desk:bg-transparent desk:h-fit";
   const headerActive = props.open
-    ? " px-[15px]    w-full  left-0 h-[52px] mb-[180px]  pt-[10px] flex justify-between bg-black desk:bg-transparent "
-    : " px-[15px]     w-full left-0 h-[52px] mb-[180px]   pt-[10px] flex justify-between";
+    ? " px-[15px]     left-0 h-[52px] mb-[180px]  pt-[10px] flex justify-between bg-black desk:bg-transparent "
+    : " px-[15px]    left-0 h-[52px] mb-[180px]   pt-[10px] flex justify-between";
 
   return (
     <div className={headerActive}>

@@ -9,28 +9,30 @@ export interface quotes {
   quote: string;
   data: string;
 }
-console.log(typeof { evan });
+
 const QuotesData: quotes[] = [
   {
-    photo: { evan },
+    photo: evan.toString(),
     name: "Evan Lahti",
     workPlace: "PC Gamer",
     quote: "“One of my gaming highlights of the year.”",
     data: "October 18, 2018",
   },
   {
-    photo: `${jada}`,
-    name: "Evan Lahti",
-    workPlace: "PC Gamer",
-    quote: "“One of my gaming highlights of the year.”",
-    data: "October 18, 2018",
+    photo: jada.toString(),
+    name: "Jada Griffin ",
+    workPlace: "Nerdreactor",
+    quote:
+      "““The next big thing in the world of streaming and survival games.””",
+    data: "December 21, 2018",
   },
   {
-    photo: `${aaron}`,
-    name: "Evan Lahti",
-    workPlace: "PC Gamer",
-    quote: "“One of my gaming highlights of the year.”",
-    data: "October 18, 2018",
+    photo: aaron.toString(),
+    name: "Aaron Williams",
+    workPlace: "Uproxx",
+    quote:
+      "““Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.””",
+    data: "December 24, 2018",
   },
 ];
 
