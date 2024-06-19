@@ -39,7 +39,7 @@ const NewsForm = () => {
           control={form.control}
           name="email"
           render={({ field }) => (
-            <FormItem className=" bg-white desk:mr-[17px] desk:mb-0 desk:h-full desk:w-full desk:max-w-[500px] px-[16px] py-[5px] rounded-md mb-[20px] bg-opacity-20">
+            <FormItem className=" bg-white font-open desk:mr-[17px] desk:mb-0 desk:h-full desk:w-full desk:max-w-[500px] px-[16px] py-[5px] rounded-md mb-[20px] bg-opacity-20">
               <FormLabel className=" p-0 m-0 text-[12px] text-white text-opacity-40  h-fit">
                 Your email address
               </FormLabel>
@@ -57,7 +57,7 @@ const NewsForm = () => {
         />
         <Button
           type="submit"
-          className="w-full desk:px-[70px] desk:py-[20px] desk:w-fit desk:h-full bg-orange text-black  hover:bg-white active:bg-white transition-colors"
+          className="w-full font-open font-bold desk:px-[70px] desk:py-[20px] desk:w-fit desk:h-full bg-orange text-black  hover:bg-white active:bg-white transition-colors"
         >
           Subscribe now
         </Button>

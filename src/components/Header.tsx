@@ -7,16 +7,16 @@ import { BurgerProps } from "./Burger";
 import { useState } from "react";
 const Header = (props: BurgerProps) => {
   const navActiv = props.open
-    ? " fixed px-[30px] pt-[100px]  left-0 top-[-100vh] flex flex-col w-[100%] h-full bg-black opacity-80 transition duration-300 ease-in-out  translate-y-[106vh] desk:h-fit"
-    : " fixed  left-0 top-[-100vh] flex flex-col w-[100%] h-[100vh] bg-black opacity-75 transition duration-300 ease-in-out desk:static desk:bg-transparent desk:h-fit";
+    ? " absolute z-50  px-[30px] pt-[100px]  left-0 top-[-100vh] flex flex-col w-[100vw] h-[100vh] bg-black opacity-80 transition duration-300 ease-in-out  translate-y-[107vh] desk:h-fit"
+    : " absolute  left-0 top-[-100vh] flex flex-col w-[100%] h-[100vh] bg-black opacity-75 transition duration-300 ease-in-out desk:static desk:bg-transparent desk:h-fit";
   const headerActive = props.open
-    ? " px-[15px]     left-0 h-[52px] mb-[180px]  pt-[10px] flex justify-between bg-black desk:bg-transparent "
-    : " px-[15px]    left-0 h-[52px] mb-[180px]   pt-[10px] flex justify-between";
+    ? " px-[15px]  relative font-open  h-[7vh] mb-[180px]  pt-[10px] flex justify-between bg-black desk:bg-transparent "
+    : " px-[15px] relative font-open h-[7vh] mb-[180px]   pt-[10px] flex justify-between";
 
   return (
     <div className={headerActive}>
       <img src={logo} alt="" />
-      <div className="flex desk:items-center">
+      <div className="flex desk:items-center ">
         <nav className={navActiv}>
           <ul className="h-full w-[280px] text-[25px] flex flex-col gap-[35px] desk:flex-row font-bold desk:h-fit desk:w-fit desk:text-[12px]">
             <li className="text-white">

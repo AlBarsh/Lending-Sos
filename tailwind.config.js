@@ -9,6 +9,10 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      bebas: ["Bebas Neue"],
+      open: ["Open Sans"],
+    },
     backgroundImage: {
       slide1: "url('resurses/Slide1.jpg')",
       slide2: "url('resurses/Slide2.jpg')",

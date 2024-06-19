@@ -9,7 +9,7 @@ const Footer = () => {
     <section className="bg-black px-[15px] desk:px-[120px]">
       <div className="flex flex-col desk:flex-row gap-[42px] desk:justify-between desk:items-center  py-[29px] border-b border-white border-opacity-30">
         <img src={logo} alt="" className="mx-auto desk:mx-0" />
-        <nav className="desk:h-fit">
+        <nav className="desk:h-fit font-open">
           <ul className="text-white text-[12px] font-bold flex flex-wrap desk:flex-nowrap	 gap-x-[30px] desk:gap-x-[22px]  gap-y-[20px] desk:gap-y-0 desk:h-fit justify-center">
             <li className="">
               <a
@@ -69,11 +69,11 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="pt-[20px] pb-[63px] text-white flex flex-col desk:flex-row items-center desk:justify-between gap-y-[30px] [text-12px]">
+      <div className="pt-[20px] pb-[63px] font-open text-white flex flex-col desk:flex-row items-center desk:justify-between gap-y-[30px] [text-12px]">
         <span className=" opacity-30 text-center">
           © 2018 Outpost Games, Inc. All Rights Reserved
         </span>
-        <div className="flex flex-col desk:flex-row desk:gap-[10px] items-center gap-y-[20px] font-bold">
+        <div className="flex flex-col desk:flex-row desk:gap-[10px] font-open items-center gap-y-[20px] font-bold">
           <a href="">Privacy Policy </a>
           <a href="">| Terms of Services |</a>
           <a href="">Code of Conduct</a>

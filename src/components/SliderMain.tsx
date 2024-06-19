@@ -30,7 +30,7 @@ export function CustomArrows() {
   );
 
   return (
-    <div className="flex   h-fit w-fit left-[50%] bottom-[4%] absolute z-10">
+    <div className="flex   h-fit w-fit left-[18%] bottom-[4%] absolute z-10">
       <div className={prevNavClassName} onClick={goBack}>
         <VscArrowLeft className=" text-white h-[20px] w-[50px]" />
       </div>
@@ -52,7 +52,7 @@ export const CustomDots = () => {
   };
 
   return (
-    <div className="flex items-center py-4 gap-1 w-fit left-[55%] bottom-[2%] absolute z-20">
+    <div className="flex items-center py-4 gap-1 w-fit left-[56%] bottom-[2%] absolute z-20">
       {[...Array(totalPages)].map((_, index) => (
         <button
           key={index}
@@ -66,11 +66,9 @@ export const CustomDots = () => {
 const SliderMain = () => {
   return (
     <Carousel
-      className=" min-w-[900px]  "
+      className=" min-w-[900px]  desk:hidden overflow-hidden w-full left-[50%] translate-x-[-50%]"
       autoplay
       dots={<CustomDots />}
-      showDots
-      showArrows
       arrows={<CustomArrows />}
     >
       <img className=" " src={SLide1} alt="" />

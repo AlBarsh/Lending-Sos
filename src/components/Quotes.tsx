@@ -18,18 +18,20 @@ const Quotes = () => {
               />
             </div>
             <div>
-              <span className="block text-orange text-[21px] font-bold uppercase">
+              <span className="block text-orange tracking-[2px] font-bebas text-[21px] font-bold uppercase">
                 {item.name}
               </span>
-              <span className="block text-white text-[14px] opacity-30">
+              <span className="block text-white font-open text-[14px] opacity-30">
                 {item.workPlace}
               </span>
             </div>
           </div>
           <img src={twitter} alt="" />
         </div>
-        <p className="text-white text-[14px]">{item.quote}</p>
-        <data className="text-white text-[12px] opacity-30">{item.data}</data>
+        <p className="text-white font-open text-[14px]">{item.quote}</p>
+        <data className="text-white font-open text-[12px] opacity-30">
+          {item.data}
+        </data>
       </div>
     );
   });
@@ -39,21 +41,21 @@ const Quotes = () => {
       className="px-[15px] bg-bgimg1 bg-cover pt-[36px] pb-[47px] desk:flex desk:px-[120px] desk:justify-between desk:gap-[100px] desk:pt-[160px] desk:pb-[150px]"
     >
       <div className="flex flex-col desk:max-w-[440px]">
-        <div className="text-white">
-          <h3 className="text-[18px]  desk:text-[24px] uppercase">
+        <div className="text-white ">
+          <h3 className="text-[18px] tracking-[3px] font-bebas desk:text-[24px] uppercase">
             What people think?
           </h3>
-          <h1 className="text-[33px] font-bold desk:text-[50px] mb-[45px] uppercase">
+          <h1 className="text-[33px] tracking-[3px] font-bebas font-bold desk:text-[70px] mb-[45px] uppercase">
             Press quotes
           </h1>
-          <p className="text-[14px] mb-[40px]">
+          <p className="text-[14px] font-open mb-[40px]">
             Our goal is to create a product and service that you’re satisfied
             with and use it every day. This is why we’re constantly working on
             our services to make it better every day and really listen to what
             our users has to say.
           </p>
         </div>
-        <button className="bg-orange rounded-[3px] desk:text-[16px] font-bold size-fit px-[15px] py-[10px] mb-[30px] mx-auto  hover:bg-white focus:bg-white transition-colors">
+        <button className="bg-orange font-open rounded-[3px] desk:text-[16px] font-bold size-fit px-[15px] py-[10px] mb-[30px] mx-auto  hover:bg-white focus:bg-white transition-colors">
           Read more testemonials
         </button>
       </div>
