@@ -15,10 +15,10 @@ const NewsLetter = () => {
         </div>
 
         <div className=" text-white flex flex-col">
-          <h3 className="text-[12px] font-bebas desk:text-[24px] uppercase">
+          <h3 className="text-[12px] font-bebas tracking-[3px] desk:text-[24px] uppercase">
             Want to stay in touch?
           </h3>
-          <h1 className="text-[33px] font-bebas desk:text-[70px] font-bold uppercase mb-[30px]">
+          <h1 className="text-[33px] font-bebas tracking-[3px] desk:text-[70px] font-bold uppercase mb-[30px]">
             newsletter SUBSCRIBE
           </h1>
           <p className="text-[14px] font-open desk:text-[18px] desk:mb-[70px]">

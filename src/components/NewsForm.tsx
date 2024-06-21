@@ -57,7 +57,7 @@ const NewsForm = () => {
         />
         <Button
           type="submit"
-          className="w-full font-open font-bold desk:px-[70px] desk:py-[20px] desk:w-fit desk:h-full bg-orange text-black  hover:bg-white active:bg-white transition-colors"
+          className="w-full font-open text-[#1A1917] font-bold desk:px-[70px] desk:py-[20px] desk:w-fit desk:h-full bg-orange  hover:bg-white active:bg-white transition-colors"
         >
           Subscribe now
         </Button>
