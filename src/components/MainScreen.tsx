@@ -3,10 +3,8 @@ import SLide1 from "../resurses/Slide1.jpg";
 import SLide3 from "../resurses/Slide3.jpg";
 import SLide4 from "../resurses/Slide4.jpg";
 import Slide2 from "../resurses/Slide2.jpg";
-import { useRef, useState } from "react";
-import { SlideHandle } from "nuka-carousel";
+import { useEffect, useRef, useState } from "react";
 import { Carousel } from "nuka-carousel";
-import { useCarousel } from "nuka-carousel";
 import { VscArrowLeft } from "react-icons/vsc";
 import { VscArrowRight } from "react-icons/vsc";
 
@@ -25,18 +23,23 @@ const Main = () => {
       setDotAclive(dotActive + 1);
     }
   };
-  const autoplayFunc = () => {
-    if (dotActive < 3) {
-      myref.current?.goForward();
-      onArrowNext();
+
+  useEffect(() => {
+    let autoplay = setTimeout(function autoplayFunc() {
       console.log(dotActive);
-    } else {
-      myref.current?.goToPage(0);
-      onDot(0);
-      console.log(dotActive);
-    }
-  };
-  // let autoplay = setInterval(autoplayFunc, 3000);
+
+      if (dotActive < 3) {
+        myref.current?.goForward();
+        onArrowNext();
+      } else {
+        myref.current?.goToPage(0);
+        onDot(0);
+      }
+      autoplay = setTimeout(autoplayFunc, 3000);
+    }, 3000);
+    return () => clearTimeout(autoplay);
+  });
+
   const myref = useRef<any>(null);
   const Dots = () => {
     const className = (index: number) => {
