@@ -44,7 +44,7 @@ const Main = () => {
   const Dots = () => {
     const className = (index: number) => {
       let value =
-        "w-3 h-3 p-0 rounded-full border hover:bg-white focus:bg-white border-white cursor-pointer ";
+        "w-3 h-3 p-0 rounded-full border hover:bg-white  border-white cursor-pointer ";
       if (dotActive === index) {
         value += " bg-white ";
       }
