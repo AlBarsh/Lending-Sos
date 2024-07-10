@@ -63,7 +63,7 @@ export const CustomDots = () => {
     </div>
   );
 };
-const SliderMain = () => {
+export const SliderMain = () => {
   return (
     <Carousel
       className=" min-w-[900px]  desk:hidden overflow-hidden w-full left-[50%] translate-x-[-50%]"
